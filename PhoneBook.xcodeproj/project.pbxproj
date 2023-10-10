@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB847C742AD5F10200F400EA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB847C732AD5F10200F400EA /* main.cpp */; };
+		DB847C7C2AD5F3B500F400EA /* PhoneBook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB847C7A2AD5F3B500F400EA /* PhoneBook.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DB847C702AD5F10200F400EA /* PhoneBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PhoneBook; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB847C732AD5F10200F400EA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DB847C7A2AD5F3B500F400EA /* PhoneBook.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PhoneBook.cpp; sourceTree = "<group>"; };
+		DB847C7B2AD5F3B500F400EA /* PhoneBook.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PhoneBook.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DB847C732AD5F10200F400EA /* main.cpp */,
+				DB847C7A2AD5F3B500F400EA /* PhoneBook.cpp */,
+				DB847C7B2AD5F3B500F400EA /* PhoneBook.hpp */,
 			);
 			path = PhoneBook;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB847C742AD5F10200F400EA /* main.cpp in Sources */,
+				DB847C7C2AD5F3B500F400EA /* PhoneBook.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
